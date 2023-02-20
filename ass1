@@ -1,0 +1,17 @@
+
+#include<stdio.h>
+int main()
+{
+int i=1,l,e,n;
+scanf("%d",&n);
+while(i<=n)
+{
+scanf("%d",&e);
+if(i==1)
+l=e;
+if(e<l)
+l=e;
+i++;
+}
+printf("%d",l);
+}
